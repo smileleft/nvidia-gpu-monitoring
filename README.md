@@ -12,3 +12,6 @@ cd ./dcgmbuild
 # run build script
 ./build.sh
 ```
+
+## nvidia gpu monitoring in k8s
+https://docs.kakaocloud.com/tutorial/observability/nvidia-gpu-monitoring
