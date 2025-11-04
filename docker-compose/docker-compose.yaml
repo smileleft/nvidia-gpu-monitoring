@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   dcgm-exporter:
-    image: nvcr.io/nvidia/k8s/dcgm-exporter:3.3.7-1-ubuntu22.04
+    image: nvcr.io/nvidia/k8s/dcgm-exporter:4.4.1-4.6.0-ubuntu22.04
     container_name: dcgm-exporter
     restart: always
     ports:
