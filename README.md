@@ -21,6 +21,9 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.h
 
 # How to Install nvidia container toolkit and Run dcgm-exporter as docker
 ```
+# preliquisite
+nvidia-smi
+
 # 1. Add Repository for nvidia container toolkit 
 distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | \
